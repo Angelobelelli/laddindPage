@@ -34,14 +34,17 @@ header > ul > a > li {
     justify-content: center;
     padding-right: 26px;
     padding-left: 26px;
-    border: 1px solid white;
     border-radius: 6px;
     margin: 0px 5px;
     
 }
+
+#tittle strong {
+    color: #AC32EB;
+}
 header > ul li:hover{
     border: 1px solid #AC32EB;
-    background-color: #AC32EB;
+    
 }
 div > h1{
     line-height: 25px;
