@@ -31,6 +31,9 @@ ul{
     
 }
 
+.centro > a{
+    text-decoration: none;
+}
 .centro > ul > a > li {
     color: white;
     display: inline-flex;
@@ -38,6 +41,10 @@ ul{
     margin: 0px 5px;
     font-size: 18px;
     padding: 0px 15px;
+}
+
+.esquerda > a{
+    text-decoration: none;
 }
 .esquerda > a > i {
     color: white;
