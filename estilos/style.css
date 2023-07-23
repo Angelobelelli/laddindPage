@@ -196,7 +196,6 @@ ul{
 @media (max-width: 320px){
 
     header{
-        background-color: #AC32EB;
         background-size: 100%;
         width: 100vh;
        
@@ -228,7 +227,7 @@ ul{
     }
    
     header{
-        background-color: #AC32EB;
+       
         background-size: 100%;
         
         
