@@ -192,6 +192,7 @@ ul{
     color: #AC32EB;
 }
 
+
 @media (max-width: 320px){
 
     header{
@@ -216,18 +217,20 @@ ul{
         width: 100vh;
     }
     #third-section {
-       dis
+        display: inline-block;
+       text-align: center;
     }
 }
 
-
-
-
 @media (max-width: 874px){
+    body{
+        width: 100vh;
+    }
+   
     header{
         background-color: #AC32EB;
         background-size: 100%;
-        width: 100vh;
+        
         
     }
     .centro ul a li {
@@ -247,13 +250,6 @@ ul{
         text-align: center;
         width: 100vh;
         margin-top: 30px;
-    }
-
-    #second-section{
-        width: 100vh;
-    }
-    #third-section{
-        
     }
 }
 
