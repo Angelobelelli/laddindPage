@@ -16,34 +16,51 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(151, 139, 139, 0.425);
+    width: 100%;
+    background-color: rgba(56, 51, 51, 0.719);
 }
 ul{
     padding: 0px;
 }
-.tittle > h1{
+#tittle  > i{
     margin-left: 60px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    color: white;
     
 }
 
-header > ul > a > li {
+.centro > ul > a > li {
     color: white;
     display: inline-flex;
-    justify-content: center;
-    padding-right: 26px;
-    padding-left: 26px;
     border-radius: 6px;
     margin: 0px 5px;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+.esquerda > a > i {
+    color: white;
+    display: inline-flex;
+    border-radius: 6px;
+    margin: 0px 5px;
+    height: 36px;
+    width: 36px;
+    font-size: 30px;
     
 }
 
 #tittle strong {
     color: #AC32EB;
 }
-header > ul li:hover{
-    border: 1px solid #AC32EB;
+
+.centro > ul :hover{
+    color: #AC32EB;
+    
+}
+.esquerda > a > i:hover{
+    color: #AC32EB;
+    
     
 }
 div > h1{
@@ -86,6 +103,7 @@ img{
     flex-direction: column;
     text-align: center;
     height: 150px;
+    line-height: 43px;
     background-color: #34044d;
     
 }
@@ -94,20 +112,150 @@ img{
     display: inline;
     padding: 0px 40px;
     line-height: 40px;
-
-
 }
+#second-section > ul li abbr{
+    display: inline;
+    padding: 0px 40px;
+    line-height: 40px;
+    text-decoration: none;
+    
+}
+
 
 #second-section > h1{
     text-align: center;
     font-weight: 400;
-   
+   align-items: center;
 }
+
 ul{
     list-style:circle
 }
 
 
+#third-section{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+
+
+#third-section .projeto{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#third-section .projeto img{
+    border-radius: 10%;
+    height: auto;
+    width: 500px;
+    margin: 0px 30px;
+}
+
+#third-section .projeto02{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+ #third-section .projeto02 img{
+    border-radius: 10%;
+    height: auto;
+    width: 500px;
+    margin: 0px 30px;
+    
+
+}
+
+#third-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#third-section .DescricaoProjeto{
+    width: 600px;
+    text-align: center;
+   
+}
+#third-section > div strong{
+    color: #AC32EB;
+}
+
+@media (max-width: 320px){
+
+    header{
+        background-color: #AC32EB;
+        background-size: 100%;
+        width: 100vh;
+       
+    }
+    header > ul > a > li {
+        display: inline;
+    }
+    
+    header .esquerda {
+        display: inline;
+        text-align: center;
+        
+    }
+
+    #first-section{
+        display: inline-block;
+        margin-top: 30px;
+        width: 100vh;
+    }
+    #third-section {
+       dis
+    }
+}
+
+
+
+
+@media (max-width: 874px){
+    header{
+        background-color: #AC32EB;
+        background-size: 100%;
+        width: 100vh;
+        
+    }
+    .centro ul a li {
+        display: flex;
+    }
+    
+    header .esquerda {
+        display: inline;
+        text-align: center;
+        
+    }
+
+    #first-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vh;
+        margin-top: 30px;
+    }
+
+    #second-section{
+        width: 100vh;
+    }
+    #third-section{
+        
+    }
+}
 
 
 
